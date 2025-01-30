@@ -39,67 +39,77 @@ const Header = () => {
                   </div>
 
                   <div class="navbar-nav navbar-itemList ">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="##"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      HOME
-                    </a>
-                    <ul class="dropdown-menu border-0">
-                      <li>
-                        <a class="dropdown-item" href="##">
-                          HOME 1
-                        </a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="##">
-                          HOME 2
-                        </a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="##">
-                          HOME 3
-                        </a>
-                      </li>
-                    </ul>
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="##"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      SHOP
-                    </a>
-                    <ul class="dropdown-menu border-0">
-                      <li>
-                        <a class="dropdown-item" href="##">
-                          SHOP 1
-                        </a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="##">
-                          SHOP 2
-                        </a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="##">
-                          SHOP 3
-                        </a>
-                      </li>
-                    </ul>
-                    <a class="nav-link" href="##">
-                      BLOGS
-                    </a>
-                    <a class="nav-link" href="##">
-                      PAGES
-                    </a>
-                    <a class="nav-link" href="##">
-                      CONTACT
-                    </a>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="##"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        HOME
+                      </a>
+                      <ul class="dropdown-menu border-0">
+                        <li>
+                          <a class="dropdown-item" href="##">
+                            HOME 1
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="##">
+                            HOME 2
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="##">
+                            HOME 3
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="##"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        SHOP
+                      </a>
+                      <ul class="dropdown-menu border-0">
+                        <li>
+                          <a class="dropdown-item" href="##">
+                            SHOP 1
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="##">
+                            SHOP 2
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="##">
+                            SHOP 3
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        BLOGS
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        PAGES
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        CONTACT
+                      </a>
+                    </li>
                   </div>
                 </div>
               </div>

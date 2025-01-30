@@ -43,9 +43,6 @@
 
 /* end center div */
 
-
-
-
 /* start right side */
 
 .main-div .main-div-right {
@@ -78,7 +75,7 @@
 
 /* Smartphones (portrait and landscape) */
 @media only screen and (max-width: 767px) {
-  .navbar-nav > a {
+  .navbar-nav > li {
     padding-left: 10px;
   }
   .main-div .main-div-left{
@@ -104,7 +101,7 @@
 
 /* Tablets (portrait and landscape) */
 @media only screen and (max-width: 991px) {
-  .navbar-nav > a {
+  .navbar-nav > li {
     padding-left: 10px;
   }
   .main-div .main-div-left{

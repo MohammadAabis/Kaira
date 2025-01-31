@@ -67,9 +67,132 @@
   display: none
 }
 
-
 /* end right side */
+/* ======= END OF HEADER ======= */
 
+
+/* ======= START OF FOOTER ======= */
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 70px;
+}
+
+.footer .footer-first{
+  margin-top: 20px;
+}
+.footer .footer-second{
+  margin-top: 20px;
+}
+
+.footer .footer-third{
+  margin-top: 20px;
+}
+
+.footer .footer-fourth{
+  margin-top: 20px;
+}
+
+.footer-first p{
+  margin-top: 20px;
+  font-size: 18px;
+  color: gray;
+}
+
+.footer-first span > i{
+  margin: 0px 5px;
+  font-size: 25px;
+}
+
+.footer-second > a{
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-size: 18px;
+  width: 40%;
+  position: relative;
+  margin: 2px 0px;
+}
+
+/* Creating a content after anchor tag which is hidden */
+.footer-second a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background: black;
+  transition: 0.5s ease;
+}
+
+.footer-second a:hover::after {
+  width: 100%;
+}
+
+.footer-third > a{
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-size: 18px;
+  margin: 2px 0px;
+  width: 65%;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.footer-third a::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s ease;
+  background: black;
+  height: 2px;
+  width: 0;
+}
+
+.footer-third a:hover::after {
+  width: 100%;
+}
+
+.footer-fourth > a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.footer-fourth > p{
+  color: gray;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.footer-end{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icons img{
+  margin: 0px 2px;
+}
+.footer-icons{
+ font-size: 18px;
+ color: gray;
+}
+
+.website-rights span{
+  color: gray;
+  font-size: 18px;
+}
+.website-rights span name{
+  color: black;
+}
+
+
+/* ======= END OF FOOTER ======= */
 
 /* ======= Media Queries ======= */
 
@@ -97,6 +220,14 @@
     font-size: 24px;
     font-weight: 900;
   }
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-end div{
+    margin-top: 10px;
+  }
+
 }
 
 /* Tablets (portrait and landscape) */
